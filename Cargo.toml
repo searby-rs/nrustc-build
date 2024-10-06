@@ -1,0 +1,11 @@
+[package]
+name = "nrustc-build"
+version = "0.1.0"
+description = "great access to rustc"
+authors = ["searby-rs <searbyrs@outlook.com]"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/searby-rs/nrustc-build"
+homepage = "https://github.com/searby-rs"
+edition = "2021"
+
+[dependencies]
