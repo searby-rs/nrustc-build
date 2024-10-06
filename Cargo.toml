@@ -1,6 +1,6 @@
 [package]
 name = "nrustc-build"
-version = "0.1.0"
+version = "0.1.1"
 description = "great access to rustc"
 authors = ["searby-rs <searbyrs@outlook.com]"]
 license = "MIT OR Apache-2.0"

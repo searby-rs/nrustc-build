@@ -129,7 +129,7 @@ impl Rustc {
     }
 
     pub fn rustc_cfg_wrap_key_value(&self, cfg: &str, value: &str) {
-        self.rustc_cfg(|| format!("cfg={}=\"{}\"", cfg, value))
+        self.rustc_cfg(|| format!("{}=\"{}\"", cfg, value))
     }
     
     pub fn rustc_cfg_wrap_key_value_if_env_set(&self, cfg: &str, value: &str, env: &str) {
